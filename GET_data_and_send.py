@@ -33,10 +33,8 @@ for x in range( 0, len( X_addresses ) ):
     temperature[x] = temperature[x][:-2:]
     humidity.append( str( data['data']['all'][2]['isens'][1]['val'] ) )
     humidity[x] = humidity[x][:-2:]
- 
 
-BaseMsg = "text in xml or json with temperature and humidity data"
-
+    BaseMsg = "text in xml or json with temperature and humidity data"
 
     BaseMsg = BaseMsg.replace('(','')
     print BaseMsg
