@@ -1,6 +1,6 @@
 asn1crypto==0.24.0
 configparser==3.5.0b2
-cryptography==2.6.1
+cryptography==3.2
 Cython==0.29.17
 entrypoints==0.3
 enum34==1.1.6
